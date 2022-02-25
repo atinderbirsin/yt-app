@@ -1,0 +1,22 @@
+.video-container {
+  display: grid;
+  margin: 0 auto;
+  cursor: pointer;
+  grid-template-columns: 15rem 15rem;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.video-container > img {
+  max-width: 15rem;
+}
+
+.video-container > div > p {
+  font-size: 1.6rem;
+}
+
+.video-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
